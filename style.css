@@ -11,14 +11,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #00953e;
+    color: #000;
     line-height: 1.6;
 }
  
 /* Header Styling */
 header {
-    background-color: #b00000;
-    color: #fff;
+    background-color: #ebeaea;
+    color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #f16828;
+    background-color: #000000;
 }
  
 nav ul li {
@@ -71,7 +71,7 @@ nav ul li a:hover {
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 20px;
-    background: #ea6315;
+    background: #000000;
     position: relative;
     animation: text 3s 1;
  
