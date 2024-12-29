@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-
- 
 /* Body and General Styling */
 body {
     font-family: Arial, sans-serif;
@@ -15,21 +13,20 @@ body {
     line-height: 1.6;
 }
  
-/* Header Styling */
+/*Header*/
 header {
-    background-color: #eae0d5;
-    color: #000000;
-    padding: 20px;
-    text-align: center;
+  background-color: #dfd2c4;
+  color: #ffffff;
+  padding: 20px;
 }
- 
+
 header h1 {
-    margin-bottom: 10px;
-    font-size: 2em;
+  margin-bottom: 10px;
+  font-size: 2em;
 }
  
-/*Nav Bar*/
-ul {
+  /*Nav Bar*/
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,11 +34,11 @@ ul {
     background-color: #000000;
   }
   
-  li {
+  nav li {
     float: right;
   }
   
-  li a {
+  nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -49,10 +46,9 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  nav li a:hover:not(.active) {
     background-color: #17328d;
   }
-  
 
 main {
     margin: 10;
@@ -123,14 +119,14 @@ main {
 }
 
   
- 
+ /*Footer*/
 footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
 }
 
 
@@ -170,7 +166,7 @@ footer {
   }
 
   
-  h4 {
+  .column2 h4 {
     border-top: 2px dashed;
     border-color: #143190 !important;
     margin:0; padding: 30px;
@@ -180,7 +176,7 @@ footer {
   
   
   
-  h4:nth-child(even) {
+ .column2 h4:nth-child(even) {
     border-left: 2px dashed;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -188,7 +184,7 @@ footer {
     padding-right: 0;
   }
   
-  h4:nth-child(odd) {
+ .column2 h4:nth-child(odd) {
     border-right: 2px dashed;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -196,13 +192,13 @@ footer {
     padding-left: 0;
   }
   
-  h4:first-child {
+  .column2 h4:first-child {
     border-top: 0;
     border-top-right-radius:0;
     border-top-left-radius:0;
   }
   
-  h4:last-child {
+ .column2  h4:last-child {
     border-bottom-right-radius:0;
     border-bottom-left-radius:0;
   }
